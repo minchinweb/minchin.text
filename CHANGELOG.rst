@@ -1,6 +1,22 @@
 Minchin.Text Changelog
 ======================
 
+v 7.0.0 [2025-10-24]
+--------------------
+
+- [BREAKING CHANGE] Moved from ``setup.py`` to ``pyproject.toml``
+  configuration. This is required to support "modern" builds, but I'm not sure
+  how far back (in Python versions) this is supported. The library code itself
+  hasn't changed, and none of the "old version" supports have been removed,
+  just the packaging has changed. That said, I personally haven't tested it.
+  See `PR #9 <https://github.com/minchinweb/minchin.text/pull/9>`_.
+- [BREAKING CHANGE] Removed namespace ``__init__.py`` files. Again required for
+  "modern" builds, but I don't know how far back "naked" (/implicit) namespace
+  packages are support. See `PR #8
+  <https://github.com/minchinweb/minchin.text/pull/8>`_. C.f. `CName Issue #153
+  <https://github.com/minchinweb/minchin.pelican.plugins.cname/issues/153>`_.
+
+
 v 6.1.0 [2021-02-09]
 --------------------
 

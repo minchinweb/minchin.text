@@ -8,4 +8,7 @@ releaser:
   version: minchin\text.py
   test_command: none
   version_bump: none
-
+  extra_packages:
+    test:
+      - colorama
+    pypi:
