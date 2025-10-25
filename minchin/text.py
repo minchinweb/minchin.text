@@ -19,7 +19,7 @@ import time
 import colorama
 
 __title__ = "minchin.text"
-__version__ = "7.0.0"
+__version__ = "7.0.1-dev"
 __description__ = "Python library for text formatting on the command line."
 __author__ = "William Minchin"
 __email__ = "w_minchin@hotmail.com"
