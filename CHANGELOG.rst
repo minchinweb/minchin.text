@@ -12,7 +12,7 @@ v 7.0.0 [2025-10-24]
   See `PR #9 <https://github.com/minchinweb/minchin.text/pull/9>`_.
 - [BREAKING CHANGE] Removed namespace ``__init__.py`` files. Again required for
   "modern" builds, but I don't know how far back "naked" (/implicit) namespace
-  packages are support. See `PR #8
+  packages are supported. See `PR #8
   <https://github.com/minchinweb/minchin.text/pull/8>`_. C.f. `CName Issue #153
   <https://github.com/minchinweb/minchin.pelican.plugins.cname/issues/153>`_.
 
